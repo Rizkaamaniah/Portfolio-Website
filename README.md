@@ -1,4 +1,18 @@
-Nama: Rizka Amaniah
-NPM: 231063120076
-about project:
-Website ini merupakan portofolio pribadi Rizka Amaniah yang dirancang untuk menampilkan keterampilan dan pengalaman di bidang UI/UX Design serta Web Design. Website ini memiliki beberapa halaman utama, yaitu Beranda, Portfolio, Prestasi, dan Contact. Pada halaman Beranda, pengunjung akan diperkenalkan dengan Rizka Amaniah sebagai seorang UI/UX Designer & Web Designer, lengkap dengan layanan yang ditawarkan, seperti UI/UX Design, Application Design, dan Website Design, serta tombol untuk mengunduh CV. Halaman Portfolio menampilkan beberapa proyek yang telah dikerjakan, termasuk desain aplikasi fintech Payvest, desain e-commerce Recybuy, serta proyek website seperti Unsika News dan Pixel Web. Selain itu, halaman Prestasi berisi daftar sertifikasi dan kursus yang telah diikuti, seperti pelatihan Microsoft Excel, Understanding Data, dan Figma. Untuk mempermudah komunikasi, halaman Contact menyediakan formulir yang memungkinkan pengunjung mengirimkan pesan langsung dengan memasukkan nama, email, alamat, nomor telepon, serta detail proyek yang ingin didiskusikan. Dengan desain yang profesional dan navigasi yang intuitif, website ini berfungsi sebagai media bagi Rizka Amaniah untuk memamerkan keterampilan, membangun personal branding, serta memudahkan calon klien atau rekan kerja dalam menjalin komunikasi dan kolaborasi.
+# Portfolio Website  
+
+## Nama  
+Rizka Amaniah  
+
+## NPM  
+231063120076  
+
+## About Project  
+Website ini merupakan portofolio pribadi Rizka Amaniah yang menampilkan keterampilan UI/UX Design dan Web Design.  
+
+Website ini memiliki beberapa halaman utama:  
+- **Beranda**: Pengenalan singkat dan layanan yang ditawarkan.  
+- **Portfolio**: Menampilkan proyek-proyek desain yang telah dikerjakan.  
+- **Prestasi**: Daftar sertifikasi dan kursus yang telah diikuti.  
+- **Contact**: Formulir komunikasi untuk pengunjung.  
+
+Dengan desain profesional dan navigasi intuitif, website ini membantu dalam membangun personal branding serta memudahkan komunikasi dengan calon klien atau rekan kerja.  

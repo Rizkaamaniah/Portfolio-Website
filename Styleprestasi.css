@@ -1,0 +1,94 @@
+/* Styling untuk container utama */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #242c40;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.prestasi {
+    text-align: center;
+    /* Warna latar belakang */
+    color: white;
+    padding: 100px 30px;
+}
+
+
+/* Grid container untuk layanan */
+
+.prestasi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Grid responsif */
+    gap: 20px;
+    /* Jarak antar kartu */
+    justify-content: center;
+    align-items: start;
+    margin-top: 30px;
+}
+
+
+/* Kartu layanan */
+
+.prestasi-card {
+    background: #222;
+    /* Warna kartu */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.prestasi-card:hover {
+    transform: translateY(-5px);
+    /* Efek hover */
+}
+
+
+/* Gambar dalam kartu */
+
+.prestasi-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* Tombol "Learn more" */
+
+.learn-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff9800;
+    /* Warna aksen */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+
+/* Tombol "View All Services" */
+
+#backButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #b07f7a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#backButton:hover {
+    background-color: rgb(71, 66, 66);
+}

@@ -1,0 +1,102 @@
+/* Style Dasar */
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(gelombang.png);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+
+/* Tombol Kembali ke Beranda */
+
+#backButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #b07f7a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#backButton:hover {
+    background-color: rgb(71, 66, 66);
+}
+
+
+/* Style Section Contact */
+
+.contact {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+
+/* Atur ukuran dan posisi logo */
+
+.logo {
+    width: 70px;
+    /* Sesuaikan ukuran */
+    height: auto;
+    margin-left: 0;
+    /* Jarak dari teks */
+    vertical-align: middle;
+    /* Posisikan sejajar dengan teks */
+    margin-bottom: 8px;
+    gap: -5px;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+input,
+textarea {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    resize: none;
+}
+
+
+/* Tombol Send */
+
+#sendButton {
+    background: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#sendButton:hover {
+    background: gray;
+}

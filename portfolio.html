@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Filter</title>
+    <link rel="stylesheet" href="StylePortofolio.css">
+
+    <script defer src="jsportfolio.js"></script>
+</head>
+
+<body>
+    <button id="backButton">← Beranda</button>
+    <section class="portfolio">
+        <h2 style="font-family: Arial, Helvetica, sans-serif; font-size: 40px;">Portfolio</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="website">Website Design</button>
+            <button class="filter-btn" data-category="mobile">Mobile App Design</button>
+
+        </div>
+
+        <div class="portfolio-gallery">
+            <div class="portfolio-item" data-category="mobile">
+                <img src="recybuy.png" alt="Recybuy design">
+                <div class="info">
+                    <h3>e-Commerce App </h3>
+                    <p>UI/UX Design</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="mobile">
+                <img src="payvest.png" alt="Payvest Design">
+                <div class="info">
+                    <h3> fintech App</h3>
+                    <p>UI/UX Design</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="wesite">
+                <img src="pixel web.png" alt="web smartphone">
+                <div class="info">
+                    <h3>Smartphone Website</h3>
+                    <p>UI/UX Design</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-gallery">
+            <div class="portfolio-item" data-category="website">
+                <img src="unsika news.png" alt="Unsika News web">
+                <div class="info">
+                    <h3>Unsika News Website </h3>
+                    <p>UI/UX Design</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="website">
+                <img src="portfolio web.png" alt="Portfolio web ">
+                <div class="info">
+                    <h3> Portfolio Website</h3>
+                    <p>UI/UX Design</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
